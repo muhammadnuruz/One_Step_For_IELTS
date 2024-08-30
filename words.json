@@ -1,0 +1,1707 @@
+[
+  {
+    "model": "words.words",
+    "pk": 1,
+    "fields": {
+      "word": "Apple",
+      "definition": "A round fruit with red, green, or yellow skin",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 2,
+    "fields": {
+      "word": "Book",
+      "definition": "A set of written or printed pages",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 3,
+    "fields": {
+      "word": "Cat",
+      "definition": "A small domesticated carnivorous mammal",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 4,
+    "fields": {
+      "word": "Dog",
+      "definition": "A domesticated carnivorous mammal",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 5,
+    "fields": {
+      "word": "Eat",
+      "definition": "Put food into the mouth and chew and swallow it",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 6,
+    "fields": {
+      "word": "Friend",
+      "definition": "A person with whom one has a bond of mutual affection",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 7,
+    "fields": {
+      "word": "House",
+      "definition": "A building for human habitation",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 8,
+    "fields": {
+      "word": "School",
+      "definition": "An institution for educating children",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 9,
+    "fields": {
+      "word": "Sun",
+      "definition": "The star around which the earth orbits",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 10,
+    "fields": {
+      "word": "Table",
+      "definition": "A piece of furniture with a flat top",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 11,
+    "fields": {
+      "word": "Water",
+      "definition": "A clear, colorless liquid essential for life",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 12,
+    "fields": {
+      "word": "Animal",
+      "definition": "A living organism that feeds on organic matter",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 13,
+    "fields": {
+      "word": "Bird",
+      "definition": "A warm-blooded egg-laying vertebrate with feathers",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 14,
+    "fields": {
+      "word": "Chair",
+      "definition": "A separate seat for one person",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 15,
+    "fields": {
+      "word": "Door",
+      "definition": "A hinged, sliding, or revolving barrier",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 16,
+    "fields": {
+      "word": "Food",
+      "definition": "Any nutritious substance that people eat",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 17,
+    "fields": {
+      "word": "Game",
+      "definition": "An activity one engages in for amusement",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 18,
+    "fields": {
+      "word": "Hand",
+      "definition": "The end part of a person's arm",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 19,
+    "fields": {
+      "word": "Ice",
+      "definition": "Frozen water",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 20,
+    "fields": {
+      "word": "Juice",
+      "definition": "A drink made from the extraction of fruit or vegetable",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 21,
+    "fields": {
+      "word": "Key",
+      "definition": "A device used to open or close a lock",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 22,
+    "fields": {
+      "word": "Leg",
+      "definition": "A limb used for walking or running",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 23,
+    "fields": {
+      "word": "Milk",
+      "definition": "A white liquid produced by mammals",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 24,
+    "fields": {
+      "word": "Nose",
+      "definition": "The part of the face used for breathing and smelling",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 25,
+    "fields": {
+      "word": "Phone",
+      "definition": "A device used for voice communication",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 26,
+    "fields": {
+      "word": "Room",
+      "definition": "A part of a building enclosed by walls",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 27,
+    "fields": {
+      "word": "Soap",
+      "definition": "A substance used for cleaning",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 28,
+    "fields": {
+      "word": "Tree",
+      "definition": "A perennial plant with an elongated trunk",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 29,
+    "fields": {
+      "word": "Up",
+      "definition": "Moving towards a higher place",
+      "level": "a1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 30,
+    "fields": {
+      "word": "Value",
+      "definition": "The worth or importance of something",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 31,
+    "fields": {
+      "word": "Wish",
+      "definition": "A desire or hope for something",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 32,
+    "fields": {
+      "word": "Year",
+      "definition": "A period of twelve months",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 33,
+    "fields": {
+      "word": "Young",
+      "definition": "Having lived or existed for a short time",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 34,
+    "fields": {
+      "word": "Zoo",
+      "definition": "A place where animals are kept for public viewing",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 35,
+    "fields": {
+      "word": "Art",
+      "definition": "The expression of human creative skill",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 36,
+    "fields": {
+      "word": "Base",
+      "definition": "The bottom support of anything",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 37,
+    "fields": {
+      "word": "Call",
+      "definition": "To speak to someone by phone",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 38,
+    "fields": {
+      "word": "Dance",
+      "definition": "To move rhythmically to music",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 39,
+    "fields": {
+      "word": "Egg",
+      "definition": "An oval object laid by a female bird",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 40,
+    "fields": {
+      "word": "Fly",
+      "definition": "To move through the air using wings",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 41,
+    "fields": {
+      "word": "Grow",
+      "definition": "To increase in size or develop",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 42,
+    "fields": {
+      "word": "Hand",
+      "definition": "The end part of a person's arm",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 43,
+    "fields": {
+      "word": "Image",
+      "definition": "A visual representation of something",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 44,
+    "fields": {
+      "word": "Joke",
+      "definition": "A thing that someone says to cause amusement",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 45,
+    "fields": {
+      "word": "King",
+      "definition": "The male ruler of an independent state",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 46,
+    "fields": {
+      "word": "Learn",
+      "definition": "To acquire knowledge or skills",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 47,
+    "fields": {
+      "word": "Moon",
+      "definition": "The natural satellite of the earth",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 48,
+    "fields": {
+      "word": "Nice",
+      "definition": "Pleasant; agreeable",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 49,
+    "fields": {
+      "word": "Open",
+      "definition": "Allowing access or passage",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 50,
+    "fields": {
+      "word": "Page",
+      "definition": "One side of a sheet of paper",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 51,
+    "fields": {
+      "word": "Quiet",
+      "definition": "Making little or no noise",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 52,
+    "fields": {
+      "word": "Rain",
+      "definition": "Water that falls from the sky",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 53,
+    "fields": {
+      "word": "Smile",
+      "definition": "To make a facial expression indicating pleasure",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 54,
+    "fields": {
+      "word": "Train",
+      "definition": "A series of connected vehicles traveling on railways",
+      "level": "a2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 55,
+    "fields": {
+      "word": "Value",
+      "definition": "The importance or worth of something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 56,
+    "fields": {
+      "word": "Aware",
+      "definition": "Having knowledge or perception of a situation",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 57,
+    "fields": {
+      "word": "Benefit",
+      "definition": "An advantage or profit gained from something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 58,
+    "fields": {
+      "word": "Challenge",
+      "definition": "A task or situation that tests someone's abilities",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 59,
+    "fields": {
+      "word": "Decide",
+      "definition": "To make a choice or judgment",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 60,
+    "fields": {
+      "word": "Effect",
+      "definition": "A change that is a result or consequence",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 61,
+    "fields": {
+      "word": "Focus",
+      "definition": "The center of interest or activity",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 62,
+    "fields": {
+      "word": "Impact",
+      "definition": "The strong effect or influence of something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 63,
+    "fields": {
+      "word": "Method",
+      "definition": "A particular procedure for accomplishing something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 64,
+    "fields": {
+      "word": "Operate",
+      "definition": "To control the functioning of a machine",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 65,
+    "fields": {
+      "word": "Process",
+      "definition": "A series of actions or steps taken to achieve a particular end",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 66,
+    "fields": {
+      "word": "Recent",
+      "definition": "Having happened or begun only a short time ago",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 67,
+    "fields": {
+      "word": "Support",
+      "definition": "To bear all or part of the weight of something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 68,
+    "fields": {
+      "word": "Theory",
+      "definition": "A set of principles or ideas intended to explain something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 69,
+    "fields": {
+      "word": "Understand",
+      "definition": "To grasp the meaning of something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 70,
+    "fields": {
+      "word": "Achieve",
+      "definition": "To successfully reach a desired objective",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 71,
+    "fields": {
+      "word": "Advantage",
+      "definition": "A condition or circumstance that puts one in a favorable position",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 72,
+    "fields": {
+      "word": "Apply",
+      "definition": "To make a formal request or put something into action",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 73,
+    "fields": {
+      "word": "Approach",
+      "definition": "To come near or nearer to something",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 74,
+    "fields": {
+      "word": "Challenge",
+      "definition": "A difficult task or problem",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 75,
+    "fields": {
+      "word": "Comprehend",
+      "definition": "To grasp mentally",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 76,
+    "fields": {
+      "word": "Consequently",
+      "definition": "As a result",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 77,
+    "fields": {
+      "word": "Consequent",
+      "definition": "Following as a result or effect",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 78,
+    "fields": {
+      "word": "Contract",
+      "definition": "A written or spoken agreement",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 79,
+    "fields": {
+      "word": "Examine",
+      "definition": "To inspect carefully",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 80,
+    "fields": {
+      "word": "Expand",
+      "definition": "To increase in size or number",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 81,
+    "fields": {
+      "word": "Function",
+      "definition": "An activity or purpose natural to a person",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 82,
+    "fields": {
+      "word": "Invest",
+      "definition": "To put money into something to make a profit",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 83,
+    "fields": {
+      "word": "Maintain",
+      "definition": "To keep something at a certain level",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 84,
+    "fields": {
+      "word": "Prevent",
+      "definition": "To stop something from happening",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 85,
+    "fields": {
+      "word": "Propose",
+      "definition": "To suggest a plan or idea",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 86,
+    "fields": {
+      "word": "Respond",
+      "definition": "To reply or answer",
+      "level": "b1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 87,
+    "fields": {
+      "word": "Significant",
+      "definition": "Sufficiently great or important",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 88,
+    "fields": {
+      "word": "Skeptical",
+      "definition": "Not easily convinced; having doubts",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 89,
+    "fields": {
+      "word": "Strategy",
+      "definition": "A plan of action or policy designed to achieve a major or overall aim",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 90,
+    "fields": {
+      "word": "Sufficient",
+      "definition": "Adequate quantity, quality, or degree to meet the needs",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 91,
+    "fields": {
+      "word": "Theoretical",
+      "definition": "Relating to the theory of a subject rather than its practical application",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 92,
+    "fields": {
+      "word": "Utility",
+      "definition": "The state of being useful",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 93,
+    "fields": {
+      "word": "Variation",
+      "definition": "A change or slight difference in condition",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 94,
+    "fields": {
+      "word": "Vivid",
+      "definition": "Producing powerful feelings or strong, clear images in the mind",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 95,
+    "fields": {
+      "word": "Accurate",
+      "definition": "Correct or precise",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 96,
+    "fields": {
+      "word": "Complex",
+      "definition": "Consisting of many different and connected parts",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 97,
+    "fields": {
+      "word": "Consequence",
+      "definition": "A result or effect of an action or condition",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 98,
+    "fields": {
+      "word": "Correlate",
+      "definition": "To show a mutual relationship or connection",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 99,
+    "fields": {
+      "word": "Critical",
+      "definition": "Expressing adverse or disapproving comments or judgments",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 100,
+    "fields": {
+      "word": "Debate",
+      "definition": "A formal discussion on a particular topic",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 101,
+    "fields": {
+      "word": "Evident",
+      "definition": "Plain or obvious; clearly seen or understood",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 102,
+    "fields": {
+      "word": "Hypothesis",
+      "definition": "A proposed explanation made on the basis of limited evidence",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 103,
+    "fields": {
+      "word": "Implement",
+      "definition": "To put a decision or plan into effect",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 104,
+    "fields": {
+      "word": "Interpret",
+      "definition": "To explain the meaning of something",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 105,
+    "fields": {
+      "word": "Justify",
+      "definition": "To show or prove to be right or reasonable",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 106,
+    "fields": {
+      "word": "Negotiate",
+      "definition": "To find a way over or through (an obstacle or difficult path)",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 107,
+    "fields": {
+      "word": "Promote",
+      "definition": "To support or actively encourage",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 108,
+    "fields": {
+      "word": "Pursue",
+      "definition": "To follow or chase after",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 109,
+    "fields": {
+      "word": "Resolve",
+      "definition": "To find a solution to a problem or difficulty",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 110,
+    "fields": {
+      "word": "Significant",
+      "definition": "Sufficiently great or important",
+      "level": "b2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 111,
+    "fields": {
+      "word": "Skeptical",
+      "definition": "Not easily convinced; having doubts",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 112,
+    "fields": {
+      "word": "Strategy",
+      "definition": "A plan of action or policy designed to achieve a major or overall aim",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 113,
+    "fields": {
+      "word": "Sufficient",
+      "definition": "Adequate quantity, quality, or degree to meet the needs",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 114,
+    "fields": {
+      "word": "Theoretical",
+      "definition": "Relating to the theory of a subject rather than its practical application",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 115,
+    "fields": {
+      "word": "Utility",
+      "definition": "The state of being useful",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 116,
+    "fields": {
+      "word": "Variation",
+      "definition": "A change or slight difference in condition",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 117,
+    "fields": {
+      "word": "Vivid",
+      "definition": "Producing powerful feelings or strong, clear images in the mind",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 118,
+    "fields": {
+      "word": "Accurate",
+      "definition": "Correct or precise",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 119,
+    "fields": {
+      "word": "Complex",
+      "definition": "Consisting of many different and connected parts",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 120,
+    "fields": {
+      "word": "Consequence",
+      "definition": "A result or effect of an action or condition",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 121,
+    "fields": {
+      "word": "Correlate",
+      "definition": "To show a mutual relationship or connection",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 122,
+    "fields": {
+      "word": "Critical",
+      "definition": "Expressing adverse or disapproving comments or judgments",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 123,
+    "fields": {
+      "word": "Debate",
+      "definition": "A formal discussion on a particular topic",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 124,
+    "fields": {
+      "word": "Evident",
+      "definition": "Plain or obvious; clearly seen or understood",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 125,
+    "fields": {
+      "word": "Hypothesis",
+      "definition": "A proposed explanation made on the basis of limited evidence",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 126,
+    "fields": {
+      "word": "Implement",
+      "definition": "To put a decision or plan into effect",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 127,
+    "fields": {
+      "word": "Interpret",
+      "definition": "To explain the meaning of something",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 128,
+    "fields": {
+      "word": "Justify",
+      "definition": "To show or prove to be right or reasonable",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 129,
+    "fields": {
+      "word": "Negotiate",
+      "definition": "To find a way over or through (an obstacle or difficult path)",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 130,
+    "fields": {
+      "word": "Promote",
+      "definition": "To support or actively encourage",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 131,
+    "fields": {
+      "word": "Pursue",
+      "definition": "To follow or chase after",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 132,
+    "fields": {
+      "word": "Resolve",
+      "definition": "To find a solution to a problem or difficulty",
+      "level": "c1",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 133,
+    "fields": {
+      "word": "Significant",
+      "definition": "Sufficiently great or important",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 134,
+    "fields": {
+      "word": "Skeptical",
+      "definition": "Not easily convinced; having doubts",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 135,
+    "fields": {
+      "word": "Strategy",
+      "definition": "A plan of action or policy designed to achieve a major or overall aim",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 136,
+    "fields": {
+      "word": "Sufficient",
+      "definition": "Adequate quantity, quality, or degree to meet the needs",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 137,
+    "fields": {
+      "word": "Theoretical",
+      "definition": "Relating to the theory of a subject rather than its practical application",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 138,
+    "fields": {
+      "word": "Utility",
+      "definition": "The state of being useful",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 139,
+    "fields": {
+      "word": "Variation",
+      "definition": "A change or slight difference in condition",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 140,
+    "fields": {
+      "word": "Vivid",
+      "definition": "Producing powerful feelings or strong, clear images in the mind",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 141,
+    "fields": {
+      "word": "Accurate",
+      "definition": "Correct or precise",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 142,
+    "fields": {
+      "word": "Complex",
+      "definition": "Consisting of many different and connected parts",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 143,
+    "fields": {
+      "word": "Consequence",
+      "definition": "A result or effect of an action or condition",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 144,
+    "fields": {
+      "word": "Correlate",
+      "definition": "To show a mutual relationship or connection",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 145,
+    "fields": {
+      "word": "Critical",
+      "definition": "Expressing adverse or disapproving comments or judgments",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 146,
+    "fields": {
+      "word": "Debate",
+      "definition": "A formal discussion on a particular topic",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 147,
+    "fields": {
+      "word": "Evident",
+      "definition": "Plain or obvious; clearly seen or understood",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 148,
+    "fields": {
+      "word": "Hypothesis",
+      "definition": "A proposed explanation made on the basis of limited evidence",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 149,
+    "fields": {
+      "word": "Implement",
+      "definition": "To put a decision or plan into effect",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 150,
+    "fields": {
+      "word": "Interpret",
+      "definition": "To explain the meaning of something",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 151,
+    "fields": {
+      "word": "Justify",
+      "definition": "To show or prove to be right or reasonable",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 152,
+    "fields": {
+      "word": "Negotiate",
+      "definition": "To find a way over or through (an obstacle or difficult path)",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 153,
+    "fields": {
+      "word": "Promote",
+      "definition": "To support or actively encourage",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 154,
+    "fields": {
+      "word": "Pursue",
+      "definition": "To follow or chase after",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  },
+  {
+    "model": "words.words",
+    "pk": 155,
+    "fields": {
+      "word": "Resolve",
+      "definition": "To find a solution to a problem or difficulty",
+      "level": "c2",
+      "created_at": "2024-08-14T10:00:00Z",
+      "updated_at": "2024-08-14T10:00:00Z"
+    }
+  }
+]
