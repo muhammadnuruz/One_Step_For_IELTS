@@ -15,6 +15,7 @@ class Questions(models.Model):
     ]
     audio = models.ForeignKey(Audios, related_name='questions', on_delete=models.CASCADE)
     question = models.TextField()
+    question_number = models.IntegerField()
     condition = models.TextField()
     type = models.CharField(max_length=50, choices=TYPE_CHOICES)
     options = models.JSONField(default=dict, blank=True, null=True)

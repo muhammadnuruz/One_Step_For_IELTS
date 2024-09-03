@@ -17,7 +17,7 @@ class AudiosDetailViewSet(RetrieveAPIView):
         instance = self.get_object()
         serializer = self.get_serializer(instance)
 
-        questions = Questions.objects.filter(audio=instance)
+        questions = Questions.objects.filter(audio=instance).order_by('question_number')
         questions_serializer = QuestionsSerializer(questions, many=True)
 
         data = {

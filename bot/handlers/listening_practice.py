@@ -8,20 +8,10 @@ from aiogram.dispatcher.filters import Text
 import asyncio
 
 from aiogram.types import ReplyKeyboardRemove
-from pydantic.v1.utils import path_type
 
 from bot.buttons.reply_buttons import start_listening_button, get_options_button, main_menu_buttons
 from bot.buttons.text import listening_practice, ready_text
 from bot.dispatcher import dp, bot
-
-
-async def get_question(used_questions: list, audio_id: str):
-    questions = json.loads(requests.get(url=f"http://127.0.0.1:8003/api/audios/detail/{audio_id}").content)['questions']
-    while True:
-        num = random.randint(0, len(questions) - 1)
-        question_id = questions[num]['id']
-        if question_id not in used_questions:
-            return questions[num], num
 
 
 async def get_audio(section: int, audio_type: str):
@@ -34,33 +24,19 @@ async def get_audio(section: int, audio_type: str):
 @dp.message_handler(Text(equals=[listening_practice]))
 async def listening_practice_function(msg: types.Message, state: FSMContext):
     audio = await get_audio(section=1, audio_type='practice')
-    message = await msg.answer("Lets go!", reply_markup=ReplyKeyboardRemove())
-    await message.delete()
-    loading_message = await msg.answer("Preparing your test🔄 Please wait.")
-    file = open(audio['audio']['audio_file'][22:], 'rb')
-    animation_texts = [
-        "Preparing your test.🔄 Please wait.",
-        "Preparing your test..🔄 Please wait.",
-        "Preparing your test...🔄 Please wait.",
-        "Almost done... 🚀 Please hold on."
-    ]
-    for i in range(len(animation_texts)):
-        await asyncio.sleep(0.5)
-        if animation_texts[i] != loading_message.text:
-            await loading_message.edit_text(animation_texts[i])
-    await state.set_state('starting_audio_practice')
-    await msg.answer_audio(audio=file,
-                           reply_markup=await start_listening_button())
-    file.close()
-    await loading_message.delete()
+    questions = json.loads(requests.get(url=f"http://127.0.0.1:8003/api/audios/detail/{audio['audio']['id']}").content)[
+        'questions']
+    text = 'Read the questions and prepare for the test 😊'
+    for question in questions:
+        text += f"\n{question['question']}"
+    await msg.answer(text=text, reply_markup=await start_listening_button())
     async with state.proxy() as proxy:
-        proxy['audio_id'] = audio['audio']['id']
+        proxy['all_questions'] = questions
+        proxy['audio'] = audio
         proxy['questions_count'] = len(audio['questions'])
         proxy['correct_answers'] = 0
-        proxy['used_questions'] = []
-        proxy['question_id'] = 0
+        proxy['wrong_answers'] = 0
         proxy['num'] = 0
-        proxy['answers_count'] = 0
         proxy['questions'] = []
         proxy['answers'] = []
 
@@ -69,11 +45,28 @@ async def listening_practice_function(msg: types.Message, state: FSMContext):
 async def listening_practice_function_2(msg: types.Message, state: FSMContext):
     async with state.proxy() as proxy:
         await state.set_state("listening_practice_2")
-        question, num = await get_question(used_questions=[], audio_id=proxy['audio_id'])
+        message = await msg.answer("Lets go!", reply_markup=ReplyKeyboardRemove())
+        await message.delete()
+        loading_message = await msg.answer("Preparing your test🔄 Please wait.")
+        file = open(proxy['audio']['audio']['audio_file'][22:], 'rb')
+        animation_texts = [
+            "Preparing your test.🔄 Please wait.",
+            "Preparing your test..🔄 Please wait.",
+            "Preparing your test...🔄 Please wait.",
+            "Almost done... 🚀 Please hold on."
+        ]
+        for i in range(len(animation_texts)):
+            await asyncio.sleep(0.5)
+            if animation_texts[i] != loading_message.text:
+                await loading_message.edit_text(animation_texts[i])
+        await state.set_state('starting_audio_practice')
+        await msg.answer_audio(audio=file)
+        file.close()
+        await loading_message.delete()
+        question = proxy['all_questions'][proxy['num'] + 1]
         proxy['question_id'] = question['id']
-        proxy['num'] = num
+        proxy['num'] += 1
         proxy['questions'] = question['options']
-        proxy['used_questions'].append(proxy['question_id'])
         try:
             await bot.delete_message(chat_id=msg.chat.id, message_id=msg.message_id - 1)
         except Exception:
@@ -86,19 +79,17 @@ async def listening_practice_function_2(msg: types.Message, state: FSMContext):
 async def listening_practice_function_3(msg: types.Message, state: FSMContext):
     async with (state.proxy() as proxy):
         user_answer = msg.text
-        questions = \
-            json.loads(requests.get(url=f"http://127.0.0.1:8003/api/audios/detail/{proxy['audio_id']}").content)[
-                'questions']
-        correct_answer = questions[proxy['num']]['correct_answer']
-        if proxy['questions_count'] == len(proxy['used_questions']):
+        question = proxy['all_questions'][proxy['num']]
+        correct_answer = question['correct_answer']
+        if proxy['num'] == len(proxy['all_questions']):
             await msg.answer(
-                f"Test completed! 🎉\nYou answered {proxy['correct_answers']} out of {proxy['questions_count']} correctly.",
+                f"Test completed! 🎉\nYou answered {proxy['correct_answers']} out of {proxy['correct_answers'] + proxy['wrong_answers']} correctly.",
                 reply_markup=await main_menu_buttons(chat_id=msg.from_user.id))
             await state.finish()
         elif len(correct_answer) == 1:
-            question, num = await get_question(used_questions=proxy['used_questions'], audio_id=proxy['audio_id'])
+            question = proxy['all_questions'][proxy['num'] + 1]
             proxy['question_id'] = question['id']
-            proxy['num'] = num
+            proxy['num'] += 1
             proxy['questions'] = question['options']
             if len(question['correct_answer']) == 1:
                 proxy['used_questions'].append(proxy['question_id'])
@@ -106,11 +97,13 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
                              reply_markup=await get_options_button(question['options']))
             if user_answer == correct_answer[-1]:
                 proxy['correct_answers'] += 1
+            else:
+                proxy['wrong_answers'] += 1
         elif proxy['answers_count'] == len(correct_answer) - 1:
-            question, num = await get_question(used_questions=proxy['used_questions'], audio_id=proxy['audio_id'])
+            question = proxy['all_questions'][proxy['num'] + 1]
             proxy['used_questions'].append(proxy['question_id'])
             proxy['question_id'] = question['id']
-            proxy['num'] = num
+            proxy['num'] += 1
             proxy['questions'] = question['options']
             proxy['used_questions'].append(proxy['question_id'])
             proxy['answers'].append(msg.text)
@@ -119,11 +112,14 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
             for answer in proxy['answers']:
                 if answer in correct_answer:
                     proxy['correct_answers'] += 1
+                else:
+                    proxy['wrong_answers'] += 1
             proxy['answers'] = []
         else:
             proxy['answers'].append(msg.text)
+            question = proxy['all_questions'][proxy['num']]
             proxy['answers_count'] += 1
             proxy['questions'].remove(msg.text)
             await msg.answer(
-                text=f"{questions[proxy['num']]['condition']}\n\n{questions[proxy['num']]['question']}",
+                text=f"{question['condition']}\n\n{question['question']}",
                 reply_markup=await get_options_button(proxy['questions']))
