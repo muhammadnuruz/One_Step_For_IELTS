@@ -91,8 +91,6 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
             proxy['question_id'] = question['id']
             proxy['num'] += 1
             proxy['questions'] = question['options']
-            if len(question['correct_answer']) == 1:
-                proxy['used_questions'].append(proxy['question_id'])
             await msg.answer(text=f"{question['condition']}\n\n{question['question']}",
                              reply_markup=await get_options_button(question['options']))
             if user_answer == correct_answer[-1]:
@@ -104,7 +102,6 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
             proxy['question_id'] = question['id']
             proxy['num'] += 1
             proxy['questions'] = question['options']
-            proxy['used_questions'].append(proxy['question_id'])
             proxy['answers'].append(msg.text)
             await msg.answer(text=f"{question['condition']}\n\n{question['question']}",
                              reply_markup=await get_options_button(question['options']))
