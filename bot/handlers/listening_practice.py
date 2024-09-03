@@ -123,7 +123,10 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
             proxy['answers'].append(msg.text)
             question = proxy['all_questions'][proxy['num']]
             proxy['answers_count'] += 1
-            proxy['questions'].remove(msg.text)
+            try:
+                proxy['questions'].remove(msg.text)
+            except ValueError:
+                pass
             await msg.answer(
                 text=f"{question['condition']}\n\n{question['question']}",
                 reply_markup=await get_options_button(proxy['questions']))
