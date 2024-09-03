@@ -34,6 +34,7 @@ async def listening_practice_function(msg: types.Message, state: FSMContext):
     async with state.proxy() as proxy:
         proxy['all_questions'] = questions
         proxy['audio'] = audio
+        proxy['answers_count'] = 0
         proxy['questions_count'] = len(audio['questions'])
         proxy['correct_answers'] = 0
         proxy['wrong_answers'] = 0
@@ -64,7 +65,6 @@ async def listening_practice_function_2(msg: types.Message, state: FSMContext):
         file.close()
         await loading_message.delete()
         question = proxy['all_questions'][proxy['num'] + 1]
-        proxy['question_id'] = question['id']
         proxy['num'] += 1
         proxy['questions'] = question['options']
         try:
@@ -101,7 +101,6 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
                 proxy['wrong_answers'] += 1
         elif proxy['answers_count'] == len(correct_answer) - 1:
             question = proxy['all_questions'][proxy['num'] + 1]
-            proxy['used_questions'].append(proxy['question_id'])
             proxy['question_id'] = question['id']
             proxy['num'] += 1
             proxy['questions'] = question['options']
