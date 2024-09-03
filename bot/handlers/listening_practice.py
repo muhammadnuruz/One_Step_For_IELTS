@@ -102,7 +102,7 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
                 proxy['correct_answers'] += 1
             else:
                 proxy['wrong_answers'] += 1
-        elif proxy['answers_count'] == len(correct_answer) - 1:
+        elif proxy['answers_count'] == len(correct_answer):
             proxy['num'] += 1
             question = proxy['all_questions'][proxy['num']]
             proxy['question_id'] = question['id']
