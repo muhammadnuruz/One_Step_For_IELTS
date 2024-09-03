@@ -92,9 +92,9 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
                 reply_markup=await main_menu_buttons(chat_id=msg.from_user.id))
             await state.finish()
         elif len(correct_answer) == 1:
-            question = proxy['all_questions'][proxy['num'] + 1]
-            proxy['question_id'] = question['id']
             proxy['num'] += 1
+            question = proxy['all_questions'][proxy['num']]
+            proxy['question_id'] = question['id']
             proxy['questions'] = question['options']
             await msg.answer(text=f"{question['condition']}\n\n{question['question']}",
                              reply_markup=await get_options_button(question['options']))
@@ -103,9 +103,9 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
             else:
                 proxy['wrong_answers'] += 1
         elif proxy['answers_count'] == len(correct_answer) - 1:
-            question = proxy['all_questions'][proxy['num'] + 1]
-            proxy['question_id'] = question['id']
             proxy['num'] += 1
+            question = proxy['all_questions'][proxy['num']]
+            proxy['question_id'] = question['id']
             proxy['questions'] = question['options']
             proxy['answers'].append(msg.text)
             await msg.answer(text=f"{question['condition']}\n\n{question['question']}",
