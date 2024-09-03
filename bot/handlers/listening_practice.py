@@ -85,13 +85,14 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
         user_answer = msg.text
         question = proxy['all_questions'][proxy['num']]
         correct_answer = question['correct_answer']
-        await msg.answer(correct_answer)
         if proxy['num'] == len(proxy['all_questions']) - 1:
+            print(0)
             await msg.answer(
                 f"Test completed! 🎉\nYou answered {proxy['correct_answers']} out of {proxy['correct_answers'] + proxy['wrong_answers']} correctly.",
                 reply_markup=await main_menu_buttons(chat_id=msg.from_user.id))
             await state.finish()
         elif len(correct_answer) == 1:
+            print(1)
             proxy['num'] += 1
             question = proxy['all_questions'][proxy['num']]
             proxy['question_id'] = question['id']
@@ -102,7 +103,8 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
                 proxy['correct_answers'] += 1
             else:
                 proxy['wrong_answers'] += 1
-        elif proxy['answers_count'] == len(correct_answer):
+        elif proxy['answers_count'] == len(correct_answer) - 1:
+            print(2)
             proxy['num'] += 1
             question = proxy['all_questions'][proxy['num']]
             proxy['question_id'] = question['id']
@@ -117,6 +119,7 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
                     proxy['wrong_answers'] += 1
             proxy['answers'] = []
         else:
+            print(3)
             proxy['answers'].append(msg.text)
             question = proxy['all_questions'][proxy['num']]
             proxy['answers_count'] += 1
