@@ -64,7 +64,7 @@ async def listening_practice_function_2(msg: types.Message, state: FSMContext):
         await msg.answer_audio(audio=file)
         file.close()
         await loading_message.delete()
-        question = proxy['all_questions'][proxy['num'] + 1]
+        question = proxy['all_questions'][proxy['num']]
         proxy['num'] += 1
         proxy['questions'] = question['options']
         try:
