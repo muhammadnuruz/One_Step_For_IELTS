@@ -29,6 +29,7 @@ async def listening_practice_function(msg: types.Message, state: FSMContext):
     text = 'Read the questions and prepare for the test 😊'
     for question in questions:
         text += f"\n{question['question']}"
+    await state.set_state('starting_audio_practice')
     await msg.answer(text=text, reply_markup=await start_listening_button())
     async with state.proxy() as proxy:
         proxy['all_questions'] = questions
@@ -59,7 +60,6 @@ async def listening_practice_function_2(msg: types.Message, state: FSMContext):
             await asyncio.sleep(0.5)
             if animation_texts[i] != loading_message.text:
                 await loading_message.edit_text(animation_texts[i])
-        await state.set_state('starting_audio_practice')
         await msg.answer_audio(audio=file)
         file.close()
         await loading_message.delete()
