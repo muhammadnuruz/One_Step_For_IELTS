@@ -69,7 +69,7 @@ async def listening_practice_function_2(msg: types.Message, state: FSMContext):
         file.close()
         await loading_message.delete()
         question = proxy['all_questions'][proxy['num']]
-        proxy['num'] += 1
+        proxy['num'] = 0
         proxy['questions'] = question['options']
         try:
             await bot.delete_message(chat_id=msg.chat.id, message_id=msg.message_id - 1)
