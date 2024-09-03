@@ -27,8 +27,10 @@ async def listening_practice_function(msg: types.Message, state: FSMContext):
     questions = json.loads(requests.get(url=f"http://127.0.0.1:8003/api/audios/detail/{audio['audio']['id']}").content)[
         'questions']
     text = 'Read the questions and prepare for the test 😊'
+    i = 0
     for question in questions:
-        text += f"\n{question['question']}"
+        i += 1
+        text += f"\n{i}) {question['question']}\n"
     await state.set_state('starting_audio_practice')
     await msg.answer(text=text, reply_markup=await start_listening_button())
     async with state.proxy() as proxy:
