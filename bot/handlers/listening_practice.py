@@ -81,7 +81,7 @@ async def listening_practice_function_3(msg: types.Message, state: FSMContext):
         user_answer = msg.text
         question = proxy['all_questions'][proxy['num']]
         correct_answer = question['correct_answer']
-        if proxy['num'] == len(proxy['all_questions']):
+        if proxy['num'] == len(proxy['all_questions']-1):
             await msg.answer(
                 f"Test completed! 🎉\nYou answered {proxy['correct_answers']} out of {proxy['correct_answers'] + proxy['wrong_answers']} correctly.",
                 reply_markup=await main_menu_buttons(chat_id=msg.from_user.id))
